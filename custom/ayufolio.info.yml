@@ -1,0 +1,16 @@
+name: Ayufolio Theme
+type: theme
+description: A flexible, recolorable theme with many regions and a responsive, mobile-first layout. "By Ayush"
+package: Other
+core_version_requirement: ^9
+base theme: classy
+libraries:
+  - ayufolio/global-styling
+  - 'ayufolio/fonts'
+
+regions:
+  branding: Branding
+  navigation: Main navigation
+  banner: Banner
+  content: Content
+  footer: Footer

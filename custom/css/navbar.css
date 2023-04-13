@@ -1,0 +1,56 @@
+.header {
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: all 0.5s;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 100;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.region-branding {
+    width: 15%;
+}
+
+.region-navigation {
+    width: 85%;
+}
+
+#header .site-name {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#header .site-name a {
+    color: #fff;
+}
+
+.menu li {
+    white-space: nowrap;
+    padding: 10px 0 10px 30px;
+}
+
+.menu li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0;
+    white-space: nowrap;
+    transition: 0.3s;
+    letter-spacing: 0.4px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+ul.menu a.is-active {
+    color: #fff;
+}

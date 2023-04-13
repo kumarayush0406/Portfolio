@@ -1,0 +1,374 @@
+.about {
+    padding: 4rem 3rem;
+}
+
+.about__content {
+    display: flex;
+    width: 100%;
+    padding: 4rem 3rem;
+}
+
+.about__info {
+    width: 50%;
+}
+
+.about__description {
+    width: 50%;
+    padding: 0 1rem;
+}
+
+.about__card {
+    display: flex;
+}
+
+.about .field--type-image {
+    width: 41.666%;
+}
+
+.about .field--name-field-aboutinfo {
+    width: 58.333%;
+}
+
+.paragraph--type--info {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.about .field--name-field-skill-info .bar {
+    /* display: none; */
+}
+
+.service_paragraph-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 40px;
+}
+
+.service_paragraph-cards .field__item-card {
+    width: 30.66%;
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.service__img {
+    margin-bottom: 1rem;
+}
+
+.service__img-round {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+}
+
+.service__img-round img {
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.service__title h2 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.4rem 0;
+}
+
+.service__sub-title {
+    padding-bottom: 1rem;
+}
+
+.field--name-field-services-title {
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.field--name-field-services-descripption {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.service_paragraph-cards .field__item-card:hover .service__img-round {
+    transition: all 500ms ease;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.skill__content {
+    display: flex;
+    gap: 5px;
+}
+
+.skill__title,
+.skill__percentage {
+    color: #4e4e4e;
+}
+
+progress {
+    width: 100%;
+    height: 1.5rem;
+}
+
+.about__description p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color: #4e4e4e;
+}
+
+.about__description .field--name-field-title {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.field--name-field-skill-info>.field__label {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.counter {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    background-image: url(../img/counters-bg.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 8rem 0;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    z-index: 2;
+}
+
+.counter::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color: #0078ff;
+    z-index: -1;
+}
+
+.counter .counter__item {
+    width: 25%;
+    color: #fff;
+}
+
+.counter .service__img-round {
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.portfolio {
+    padding-top: 30px;
+}
+
+.portfolio__content {
+    display: flex;
+    width: 100%;
+}
+
+.portfolio__slider {
+    width: 70%;
+    padding: 0 10px;
+}
+
+.portfolio_information {
+    width: 30%;
+    padding: 0 10px;
+}
+
+.portfolio_info {
+    padding: 30px;
+    box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08)
+}
+
+.portfolio__description {
+    padding-top: 30px;
+}
+
+.portfolio__description h2 {
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.portfolio_info .field__label {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+}
+
+.slick-dots li {
+    margin: 0 0.25rem;
+}
+
+.slick-dots button {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    background-color: orange;
+    text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+    background-color: red;
+}
+
+/* .portfolio__contents {
+    width: 33.33%;
+} */
+
+.portfolio__thumbnail {
+    max-width: 100%;
+}
+
+.portfolio__thumbnail {
+    margin-bottom: 1rem;
+}
+
+.portfolio__thumbnail img {
+    width: 100%;
+    height: 200px;
+}
+
+.portfolio-view__description h2 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+/* 
+.portfolio_view_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.view-id-portfolio_block .view-content--wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.view-id-portfolio_block .views-row {
+    width: 33.33%;
+    padding: 15px 10px;
+}
+
+.view-portfolio-block .view-content {
+    padding: 35px 0;
+}
+
+.testimonial {
+    background-image: url(../img/overlay-bg.jpg);
+    position: relative;
+    padding: 4rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color: #0078ff;
+}
+
+.testimonial .field__item {
+    text-align: center;
+    position: relative;
+}
+
+
+.testimonial .field__item img {
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.testimonial .field--name-field-test-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 1rem 0;
+    display: block;
+    font-size: 1.4rem;
+}
+
+.testimonial .field--name-field-test-description p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff;
+    padding: 0 15rem;
+}
+
+.view-blog .views-row {
+    width: 33.33%;
+    padding: 2rem 1rem;
+}
+
+.view-blog img {
+    width: 100%;
+    height: auto;
+}
+
+.view-blog .view-content--wrapper {
+    display: flex;
+}
+
+.view-blog .node__content {
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+#block-views-block-blog-blog-view {
+    padding-top: 4rem;
+}
+
+#block-views-block-blog-blog-view>h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+#block-views-block-blog-blog-view .view-header {
+    color: #4e4e4e;
+    margin-bottom: 1rem;
+    text-align: center;
+}
